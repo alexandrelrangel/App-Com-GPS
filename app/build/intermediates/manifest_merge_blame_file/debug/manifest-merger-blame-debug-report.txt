@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.appcomgps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:11:5-42:19
+26        android:allowBackup="true"
+26-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.1] /home/alexandre/.gradle/caches/transforms-2/files-2.1/b234a824af7fd98a5c54fc0522824a91/core-1.3.1/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:13:9-43
+31        android:label="@string/app_name"
+31-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:14:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:15:9-54
+33        android:supportsRtl="true"
+33-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:16:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.AppComGPS" >
+35-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:17:9-47
+36        <activity
+36-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:18:9-21:20
+37            android:name="com.example.appcomgps.MapsActivity"
+37-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:19:13-41
+38            android:label="@string/title_activity_maps" >
+38-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:20:13-56
+39        </activity>
+40        <!--
+41             The API key for Google Maps-based APIs is defined as a string resource.
+42             (See the file "res/values/google_maps_api.xml").
+43             Note that the API key is linked to the encryption key used to sign the APK.
+44             You need a different API key for each encryption key, including the release key that is used to
+45             sign the APK for publishing.
+46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+47        -->
+48        <meta-data
+48-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:30:9-32:55
+49            android:name="com.google.android.geo.API_KEY"
+49-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:31:13-58
+50            android:value="@string/google_maps_key" />
+50-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:32:13-52
+51
+52        <activity android:name="com.example.appcomgps.MainActivity" >
+52-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:34:9-41:20
+52-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:35:13-41
+53            <intent-filter>
+53-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:36:13-40:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:37:17-69
+54-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:37:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:39:17-77
+56-->/home/alexandre/AndroidStudioProjects/AppComGPS/app/src/main/AndroidManifest.xml:39:27-74
+57            </intent-filter>
+58        </activity>
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/2d547673e05a0f4359ea410021e8e7c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/af7ff4cdb9585a03f0fe804445629944/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/af7ff4cdb9585a03f0fe804445629944/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/af7ff4cdb9585a03f0fe804445629944/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/af7ff4cdb9585a03f0fe804445629944/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/937c5050898784d30c656655e5f36fd6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/937c5050898784d30c656655e5f36fd6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.0.0] /home/alexandre/.gradle/caches/transforms-2/files-2.1/937c5050898784d30c656655e5f36fd6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+72    </application>
+73
+74</manifest>
